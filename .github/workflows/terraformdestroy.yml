@@ -1,8 +1,6 @@
 name: Terraform Destroy
 on:
- push:
-   branches:
-    - main
+ workflow_dispatch
 
 jobs:
  tf-destroy:
